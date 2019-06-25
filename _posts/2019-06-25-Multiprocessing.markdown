@@ -13,9 +13,12 @@ mathjax: true
 
 $sd$
 
+$$
 \begin{equation}
 sd
 \end{equation}
+$$
+
 $$
 dsa
 $$
