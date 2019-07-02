@@ -5,6 +5,7 @@ date: 2019-06-25
 mathjax: true
 tags:
     - python
+	- multiprocessing
 ---
 
 ## 简介
