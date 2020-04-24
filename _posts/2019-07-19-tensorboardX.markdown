@@ -1,6 +1,6 @@
 ---
 layout: post
-title: tensorboardX
+title: "tensorboardX"
 date: 2019-07-19
 mathjax: true
 tags:
@@ -14,7 +14,7 @@ tags:
 
 ## 安装
 
-tensorboardX本质上是向tensorflow套件中的tensorboard发送信息并可视化的，所以需要先安装tensorboard，anaconda上有编译好的tensorflow，安装时会将tensorboard一并安装，所以就选择这种方式来安装。
+tensorboardX本质上是向tensorflow套件中的tensorboard发送信息并可视化的，所以需要先安装tensorboard，anaconda上有编译好的tensorflow，安装时会将tensorboard一并安装。
 
 ```bash
 conda install -c conda-forge tensorflow
@@ -26,12 +26,12 @@ conda install -c conda-forge tensorboardX
 
 ## 使用
 
-tensorboardX通过`SummaryWriter`的实例的`add_{something}({tag name}, {object}, {iteration number})`方法将信息记录在指定位置，再用tensorboard读取制定位置的这些信息并将其可视化。所以第一步是实例化一个`SummaryWriter`对象。
+tensorboardX通过`SummaryWriter`的实例的`add_{something}({tag name}, {object}, {iteration number})`方法将信息记录在指定位置，再用tensorboard读取指定位置的这些信息并将其可视化。所以第一步是实例化一个`SummaryWriter`对象。
 
 ```python
 class tensorboardX.SummaryWriter(logdir=None, comment='', purge_step=None, max_queue=10, flush_secs=120, filename_suffix='', write_to_disk=True, log_dir=None, **kwargs)
 ```
-* **`logir`**(string)指定所记录的信息存放的位置，默认为在当前Python工作路径（可通过`import os; os.getcwd`获得）搜索一个runs文件夹，若没有则新建一个，并在其中创建`{当前时间}_{用户名}`的文件夹，用于存储该`SummaryWriter`实例记录的所有信息。
+* **`logir`**(string)指定信息存放的位置，默认为在当前Python工作路径（可通过`import os; os.getcwd`获得）搜索一个名为runs的文件夹，若没有则新建一个，并在其中创建`{当前时间}_{用户名}`的文件夹，用于存储该`SummaryWriter`实例记录的所有信息。
 * **`comment`**(string)当`logir=None`时，`comment`传入的参数会附于默认的用于存储`SummaryWriter`实例记录信息的文件夹的文件名后，即`{当前时间}_{用户名}{comment}`
 
 ```python
@@ -65,7 +65,7 @@ iridiums-MacBook-Pro-2:runs iridium$
 ```python
 add_image(tag, img_tensor, global_step=None, walltime=None, dataformats='CHW')
 ```
-* **`tag`**(string)数据标识，可以理解为所要记录的图像对象的名字，每个图像对象在不同步骤（第几步由`gloabl_step`确定）有对应的数据，可以通过`tag`来确定要记录数据的图像对象
+* **`tag`**(string)数据标识，可以理解为所要记录的图像对象的名字，每个图像对象在不同步骤（第几步由`gloabl_step`确定）有对应的数据，可以通过`tag`来确定要记录数据的对象
 
 * **`img_tensor`**(torch.Tensor, numpy.array)一个uint8或者float的张量，其形为(channel, height, width)其中channel为1,3,4, 当数据类型为uint8时其数值应该为[0,255]中的整数，当数据类型为float时其数值应该在[0,1]之间
 
@@ -80,11 +80,10 @@ add_image(tag, img_tensor, global_step=None, walltime=None, dataformats='CHW')
     writer.close()
     ```
 
-    
 
+## 可视化
 
-
-
+tensorboardX只是记录信息，真正的可视化还需要tensorboard来实现。方法为在终端中运行`tensorboard --logdir=<d>`, 其中`<d>`为tensorboardX创建的存放所记录信息的文件夹。
 
 
 
