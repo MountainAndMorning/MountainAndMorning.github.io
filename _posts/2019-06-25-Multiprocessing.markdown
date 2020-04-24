@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Multiprocessing 库
+title: "Multiprocessing 库"
 date: 2019-06-25
 mathjax: true
-tags:
-    - python
-	- multiprocessing
+tags: python
 ---
 
 ## 简介
@@ -152,7 +150,7 @@ print(results)
 进程池可以方便地管理多个工作进程。
 
 ```python
-class multiprocessing.pool.Pool(processes=None, maxtasksperchild=None)
+class multiprocessing.Pool(processes=None, maxtasksperchild=None)
 ```
 
 进程池的初始化还包括其它参数，这里只关注这两个参数。
@@ -350,11 +348,33 @@ msg1:  4
 
 `map_async`不支持多参数，不阻塞父进程运行，返回`AsyncResult`对象，调用其`get`方法即可得到与`iterable`相对应的结果列表。事实上，`map(func, iterable, chunksize)`相当于`map_async(func, iterable, chunksize).get()`. 
 
-`starmap`和`starmap_async`分别对应是`map`和`map_async`的多参数版本。
+`starmap`和`starmap_async`分别对应是`map`和`map_async`的多参数版本，如下：
+
+```python
+from functools import partial
+from itertools import repeat
+from multiprocessing import Pool, freeze_support
+def func(a, b):
+   return a + b
+def main():
+   a_args = [1,2,3]
+   second_arg = 1
+   with Pool() as pool:
+       L = pool.starmap(func, [(1, 1), (2, 1), (3, 1)])
+       M = pool.starmap(func, zip(a_args, repeat(second_arg)))
+       N = pool.map(partial(func, b=second_arg), a_args)
+       assert L == M == N
+if __name__=="__main__":
+   freeze_support()
+main()
+
+```
+
+
 
 ### 小结
 
-到此，再来回顾下`pool = Pool(processes, maxtasksperchild)`的运作方式，`pool`维持数量为`processes`的进程池，其中每个进程在执行`maxtasksperchild`个任务后就退出，并由新进程替代。`apply_async`和`map_async`不断向进程提交task，`apply_async`提交的task由一个taskel组成，`map_async`提交的task由`chunksize`个taskel组成。当有空余进程时task立即可以进入执行状态，否则则需等待某进程完成其上一个task后空余出来。另一方面，进程进入执行状态后并不一定就能立刻在CPU上执行，计算机中每时每刻都有大量进程，具体哪个进程占用CPU资源依赖于操作系统的调度。所以可能出现`pool`中有大量子进程，且每个子进程的负载都很高，但在计算机资源管理器中却发现`pool`中的子进程CPU占用率很低的情形。
+到此，再来回顾下`pool = Pool(processes, maxtasksperchild)`的运作方式，`pool`维持数量为`processes`的进程池，其中每个进程在执行`maxtasksperchild`个任务后就退出，并由新进程替代。`apply_async`和`map_async`不断向进程提交task，`apply_async`提交的task由一个taskel组成，`map_async`提交的task由`chunksize`个taskel组成。当有空余进程时task立即可以进入执行状态，否则则需等待某进程完成其上一个task后空余出来。另一方面，进程进入执行状态后并不一定就能立刻在CPU上执行，计算机中每时每刻都有大量进程，具体哪个进程占用CPU资源依赖于操作系统的调度。所以可能出现`pool`中有大量子进程，且每个子进程的负载都很高，但在计算机资源管理器中却发现`pool`中的子进程CPU占用率很低的情形。另外注意使用with语句可以很方便地使用Pool, 见最后一例。
 
 ## 总结
 
