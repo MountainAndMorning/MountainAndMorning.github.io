@@ -1,0 +1,11 @@
+---
+layout: post
+title: "PyQt5"
+date: 2019-06-25
+mathjax: true
+tags: 
+	—python
+	—PyQt5
+---
+
+# PyQt5
