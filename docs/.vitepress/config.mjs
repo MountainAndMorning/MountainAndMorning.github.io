@@ -8,7 +8,7 @@ export default defineConfig({
       noExternal: ["vuetify"]
     }
   },
-  description: "医学影像管理与分析平台",
+  description: "医学影像管理与分析平台，备份地址：https://mountainandmorning.github.io/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/images/icon.png',
