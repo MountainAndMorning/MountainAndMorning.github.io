@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "TIMESlice"
-  text: "医学影像管理与分析平台"
+  text: "医学影像管理与分析"
   tagline: v4.16.0 
   image:
     src: /images/icon.png
