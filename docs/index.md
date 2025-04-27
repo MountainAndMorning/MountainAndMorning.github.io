@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "TIMESlice"
   text: "医学影像管理与分析"
-  tagline: v4.19.0 
+  tagline: v5.0.0 
   image:
     src: /images/icon.png
     alt: VitePress
