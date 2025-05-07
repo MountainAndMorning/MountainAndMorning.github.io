@@ -1,17 +1,18 @@
 # 数据库管理
 
-软件激活后还需要选择数据库用于存储软件运行过程中的相关数据。
+数据库是一个名为TIMESliceDB的文件夹，软件第一次启动时会让你选择其存放位置，默认存放地址是文档文件夹。
 
-![](/images/database/addDatabase.png)
+::: warning 警告
+随着你的影像导入量增加，数据库文件会变得越来越大，对Windows用户来说，请不要选择C盘存放。注意，文档、桌面、下载这些文件夹都是在C盘的。
+:::
 
-1. 点击左上角<v-icon size='small' icon="mdi-timelapse" color='yellow'/>按钮打开数据库管理窗口 
-2. 点击<v-icon size='small' icon="mdi-plus" color='yellow'/>在弹出的对话框中选择一个文件夹用于存放数据库文件，数据库文件是一个名为TIMESlice.db的文件夹，请将其视为一个整体，勿手动更改其中内容，否则会使数据库崩溃 
-3. 选择一个数据库条目 
-4. 点按<span style="color:red">SELECT</span>按钮加载当前数据库，当前加载的数据库其左侧的图标<v-icon size='small' icon="mdi-database" color='green'/>为绿色 
-5. 对于当前未加载的数据库，可以点按工具栏中的<v-icon size='small' icon="mdi-arrow-up-circle-outline" color='yellow'/>按钮选择文件夹，将该数据库导入此位置，请目标位置有足够空间存放数据库 
-6. 也可以点按工具栏中的<v-icon size='small' icon="mdi-arrow-down-circle-outline" color='yellow'/>按钮选择TIMESlice.db文件导入该数据库
+如果你需要调整数据库文件夹存放位置，你可以通过以下步骤进行操作：
 
-![](/images/database/disconnect.png)
+![](/images/database/database.png)
 
-1. 选择当前加载的数据库条目
-2. 点按<span style="color:red">DISCONNECT</span>按钮断开数据库连接，未连接的数据库可以倍导出
+1. 点击打开设置对话框
+2. 点击选择目标文件夹存放数据库
+
+::: warning 警告
+请勿在TIMESlice之外手动操作任何数据库内容，否则可能会导致软件崩溃和数据库损坏。
+:::

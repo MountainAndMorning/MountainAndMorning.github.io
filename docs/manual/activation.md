@@ -4,8 +4,8 @@
 
 ![](/images/activation/activation.png)
 
-* 点击右上角<span style="color:red">UNREGISTERED</span>按钮
-* 点击<v-icon size='small' icon="mdi-content-copy" color='yellow'/>按键复制电脑识别码
-* 点击<v-icon size='small' icon="mdi-information-slab-circle-outline" color='yellow'/>获取开发者联系方式，并发送识别码
-* 复制激活码后点击<v-icon size='small' icon="mdi-content-paste" color='yellow'/>粘贴至文本框
-* 点击激活
+1. 点击打开激活窗口
+2. 复制电脑识别码
+3. 微信联系开发者发送识别码，获取激活码
+4. 粘贴激活码
+5. 点击激活

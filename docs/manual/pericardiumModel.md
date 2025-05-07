@@ -12,6 +12,9 @@
 ## 胸廓
 <a href='https://www.jianguoyun.com/p/DSaALv8Q-MmzBhi8v4AGIAA'>Thoracic v2.0</a>
 
+## 肺叶
+<a href='https://www.jianguoyun.com/p/DYETKD8Q-MmzBhjMv4AGIAA'>Respiratory v2.0</a>
+
 ## 腹腔
 <a href='https://www.jianguoyun.com/p/DWJ4DuEQ-MmzBhjZv4AGIAA'>Abdomen v2.0</a>
 

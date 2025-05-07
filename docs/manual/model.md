@@ -1,12 +1,17 @@
 # 模型管理
 
-自v4.12.0开始，TIMESlice将采用插件式的方式管理人工智能模型，用户可以在本网站下载所需模型，导入对应模块后即可使用。例如可以在[图像分割模型列表](./pericardiumModel)中下载所需模型，然后在图像分割模块中使用，如下：
+TIMESlice5采用插件式的方式管理人工智能模型，用户可以在本网站下载所需模型，导入对应模块后即可使用。例如可以在[图像分割模型列表](./pericardiumModel)中下载所需模型，然后在图像分割模块中使用，如下：
 ![](/images/model/modelManage.png)
-1. 在图像分割模块中
-2. 选中待处理的seg
-3. 点击<v-icon size='small' icon="mdi-steam" color='green'/>工具
-4. 点击文本框弹出模型选择界面
-5. 点击导入按钮<v-icon size='small' icon="mdi-arrow-down-circle-outline" color='green'/>导入下载好的模型
-6. 选择所需模型
-7. 点按确定
-8. 点击运行<v-icon size='small' icon="mdi-play-circle-outline" color='green'/>开始调用模型
+
+1. 选择Auto工具
+2. 点击选择模型配置面板
+3. 点击访问本站下载模型
+4. 导入下载后的模型文件
+5. 选择你需要分割的区域
+6. 加载模型
+7. 运行模型
+
+
+::: warning 警告
+某些设备可能无法访问本站，你可以用苹果设备试试，但问题是如果你不能访问本站你也看不到这条信息🐶
+:::
