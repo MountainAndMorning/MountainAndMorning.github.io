@@ -12,9 +12,9 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon v5.0.0
+## 下载 MacOS Apple Silicon v5.0.1
 
-<a href='https://www.jianguoyun.com/p/DYKvQKYQ-MmzBhinv4AGIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/Ddh6E-oQ-MmzBhi0joMGIAA'>地址：坚果云</a>
 
 ## 下载 Windows v5.0.0
 
@@ -37,6 +37,11 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 
 # 更新日志
+
+## v5.0.1
+- 修复了后台进程管理问题
+- 修复了label创建问题
+- 修复了数据导出问题
 
 ## v5.0.0
 - 重写了软件、专注图像分割任务
