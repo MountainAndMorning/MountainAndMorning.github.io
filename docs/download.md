@@ -1,6 +1,6 @@
 # 下载
 
-如果这个软件对你的论文有帮助请引用我目前仅有的两篇文献:
+如果这个软件对你的论文有帮助请引用这两篇文献:
 
 Xiaogang Li, Lianchang Ji, Rongrong Zhang, Hongrui You, Lisheng Xu, Stephen E. Greenwald, Yu Sun, Libo Zhang, Benqiang Yang, “COACT: Coronary artery centerline tracker,” Medical Physics, p. mp.16873, Dec. 2023, doi: 10.1002/mp.16873.
 
@@ -8,7 +8,7 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 并将软件下载地址 (https://slice-doc.netlify.app/) 插入到文献合适位置.
 
-微信扫描如下二维码或用邮件（18207481578@163.com）联系开发者获得许可，最好是用微信，发邮件我也会让你加微信的。
+微信扫描如下二维码或用邮件（18207481578@163.com）联系开发者获得许可，最好是用微信。
 
 ![](/images/QR.png)
 
@@ -16,9 +16,9 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 <a href='https://www.jianguoyun.com/p/Ddh6E-oQ-MmzBhi0joMGIAA'>地址：坚果云</a>
 
-## 下载 Windows v5.0.0
+## 下载 Windows v5.0.1
 
-<a href='https://www.jianguoyun.com/p/DSjBG_QQ-MmzBhjkv4AGIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DT-btAsQ-MmzBhiAlIMGIAA'>地址：坚果云</a>
 
 
 ## 下载人工智能模型
