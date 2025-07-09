@@ -12,13 +12,13 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon v5.0.1
+## 下载 MacOS Apple Silicon v5.0.2
 
-<a href='https://www.jianguoyun.com/p/Ddh6E-oQ-MmzBhi0joMGIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DTKRmXoQ-MmzBhj19YkGIAA'>地址：坚果云</a>
 
-## 下载 Windows v5.0.1
+## 下载 Windows v5.0.2
 
-<a href='https://www.jianguoyun.com/p/DT-btAsQ-MmzBhiAlIMGIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DfMu224Q-MmzBhig_IkGIAA'>地址：坚果云</a>
 
 
 ## 下载人工智能模型

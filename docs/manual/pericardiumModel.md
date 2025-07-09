@@ -19,7 +19,7 @@
 <a href='https://www.jianguoyun.com/p/DWJ4DuEQ-MmzBhjZv4AGIAA'>Abdomen v2.0</a>
 
 ## 脊柱
-<a href='hhttps://www.jianguoyun.com/p/Dag2WbMQ-MmzBhjUv4AGIAA'>Spine v2.0</a>
+<a href='https://www.jianguoyun.com/p/Dag2WbMQ-MmzBhjUv4AGIAA'>Spine v2.0</a>
 
 ## SAM
 <a href='https://www.jianguoyun.com/p/DRK01X0Q-MmzBhjav4AGIAA'>SAM</a>
