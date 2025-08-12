@@ -12,13 +12,13 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon v5.0.3
+## 下载 MacOS Apple Silicon v5.0.4
 
-<a href='https://www.jianguoyun.com/p/DZh2hc4Q-MmzBhjiuYoGIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/Dah4d_QQ-MmzBhiL4o0GIAA'>地址：坚果云</a>
 
-## 下载 Windows v5.0.3
+## 下载 Windows v5.0.4
 
-<a href='https://www.jianguoyun.com/p/DeonkXsQ-MmzBhjWvooGIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DZ6EifYQ-MmzBhiM4o0GIAA'>地址：坚果云</a>
 
 
 ## 下载人工智能模型
@@ -37,6 +37,11 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 
 # 更新日志
+
+## v5.0.4
+- 在volumeView中增加了cross显示
+- 在volumeView中增加了双击聚焦功能
+- 修复了一个GE序列没有正确拆分问题
 
 ## v5.0.3
 - 修复了combine工具
