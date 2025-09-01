@@ -12,13 +12,13 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon v5.0.4
+## 下载 MacOS Apple Silicon v5.0.5
 
-<a href='https://www.jianguoyun.com/p/Dah4d_QQ-MmzBhiL4o0GIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DS_hSr8Q-MmzBhj2648GIAA'>地址：坚果云</a>
 
-## 下载 Windows v5.0.4
+## 下载 Windows v5.0.5
 
-<a href='https://www.jianguoyun.com/p/DZ6EifYQ-MmzBhiM4o0GIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DWr_jUQQ-MmzBhj3648GIAA'>地址：坚果云</a>
 
 
 ## 下载人工智能模型
@@ -37,6 +37,11 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 
 # 更新日志
+
+## v5.0.5
+- 修复了python端和js端dicom文件顺序识别不一致的问题
+- 调整了点击已选中的seg或roi时的逻辑
+- 调整了下previews的生成逻辑
 
 ## v5.0.4
 - 在volumeView中增加了cross显示
