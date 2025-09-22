@@ -20,6 +20,14 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 <a href='https://www.jianguoyun.com/p/DWr_jUQQ-MmzBhj3648GIAA'>地址：坚果云</a>
 
+## 下载 MacOS Apple Silicon v4.19.0
+
+<a href='https://www.jianguoyun.com/p/DRWr1YAQ-MmzBhjA5uQFIAA'>地址：坚果云</a>
+
+## 下载 Windows v4.19.0
+
+<a href='https://www.jianguoyun.com/p/DVIeFcwQ-MmzBhiD5-QFIAA'>地址：坚果云</a>
+
 
 ## 下载人工智能模型
 
