@@ -12,17 +12,21 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 ![](/images/QR.png)
 
-## 下载 MacOS Apple Silicon v5.0.5
+## 下载 MacOS Apple Silicon v5.0.6
 
-<a href='https://www.jianguoyun.com/p/DS_hSr8Q-MmzBhj2648GIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DTKJwnIQ-MmzBhj-sZYGIAA'>地址：坚果云</a>
 
-## 下载 Windows v5.0.5
+## 下载 Windows v5.0.6
 
-<a href='https://www.jianguoyun.com/p/DWr_jUQQ-MmzBhj3648GIAA'>地址：坚果云</a>
+<a href='https://www.jianguoyun.com/p/DbrxW9UQ-MmzBhiuyJYGIAA'>地址：坚果云</a>
 
 ## 下载 MacOS Apple Silicon v4.19.0
 
 <a href='https://www.jianguoyun.com/p/DRWr1YAQ-MmzBhjA5uQFIAA'>地址：坚果云</a>
+
+## 下载 MacOS Intel v4.19.0
+
+<a href='https://www.jianguoyun.com/p/DXXDeBgQ-MmzBhikkegFIAA'>地址：坚果云</a>
 
 ## 下载 Windows v4.19.0
 
@@ -45,6 +49,12 @@ Xiaogang Li, Yu Sun, Lisheng Xu, Stephen E. Greenwald, Libo Zhang, Rongrong Zhan
 
 
 # 更新日志
+
+## v5.0.6
+- 修复了在不同磁盘移动数据库时的问题
+- 在paint和lasso中增加了阈值区域限制
+- 增加了计算机信息界面
+- 修复了pending任务没有自动启动的问题
 
 ## v5.0.5
 - 修复了python端和js端dicom文件顺序识别不一致的问题
