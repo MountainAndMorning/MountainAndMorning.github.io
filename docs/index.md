@@ -3,20 +3,17 @@
 layout: home
 
 hero:
-  name: "TIMESlice6"
+  name: "TIMESlice6已发布"
   text: "增加本地模型训练功能"
   image:
     src: /images/icon.png
     alt: VitePress
   actions:
     - theme: brand
-      text: 手册
+      text: v5手册
       link: /manual/index
     - theme: alt
-      text: 下载
-      link: /download
-    - theme: alt
-      text: TIMESlice6
+      text: v6手册
       link: https://doc.timeslice.space
 
 features:
