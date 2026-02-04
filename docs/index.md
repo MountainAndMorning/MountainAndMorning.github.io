@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "TIMESlice6（RØNDŌN）已发布"
-  text: "点击doc.timeslice.space查看"
+  name: "TIMESlice6已发布"
+  text: "见doc.timeslice.space"
   image:
     src: /images/icon.png
     alt: VitePress
