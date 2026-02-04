@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "TIMESlice"
-  text: "医学影像管理与分析"
-  tagline: v5.0.6
+  name: "TIMESlice6（RØNDŌN）已发布"
+  text: "点击doc.timeslice.space查看"
   image:
     src: /images/icon.png
     alt: VitePress
