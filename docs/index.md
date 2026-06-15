@@ -3,17 +3,14 @@
 layout: home
 
 hero:
-  name: "TIMESlice6已发布"
-  text: "增加本地模型训练功能"
+  name: "TIMESlice7已发布"
+  text: "v5已不再支持"
   image:
     src: /images/icon.png
     alt: VitePress
   actions:
-    - theme: brand
-      text: v5手册
-      link: /manual/index
     - theme: alt
-      text: v6手册
+      text: v7手册
       link: https://doc.timeslice.space
 
 features:

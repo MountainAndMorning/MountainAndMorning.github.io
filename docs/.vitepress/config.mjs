@@ -17,32 +17,9 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: '/' },
-      { text: '下载', link: '/download' }
     ],
 
-    sidebar: [
-      {
-        text: '简介', link: '/manual/index',
-      },
-      {
-        text: '软件激活', link: '/manual/activation',
-      },
-      {
-        text: '数据库管理',link: '/manual/database',
-      },
-      {
-        text: '帮助',link: '/manual/help',
-      },
-      {
-        text: '动物园',
-        link: '/manual/model',
-        items: [
-          { text: '图像分割', link: '/manual/pericardiumModel' },
-        ]
-      },
-      { text: '下载', link: '/download' },
-      { text: '问题', link: '/QA' }
-    ],
+    
 
     socialLinks: [
       // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
