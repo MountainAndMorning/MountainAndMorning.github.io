@@ -2,5 +2,4 @@
 
 下载最新版TIMESlice
 
-[https://timeslice.space](https://timeslice.space)
-<doc.timeslice.space/>
+[https://doc.timeslice.space](https://doc.timeslice.space)
