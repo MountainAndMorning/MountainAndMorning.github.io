@@ -1,4 +1,6 @@
 # TIMESlice7
 
 下载最新版TIMESlice
-doc.timeslice.space
+
+[https://timeslice.space](https://timeslice.space)
+<doc.timeslice.space/>
